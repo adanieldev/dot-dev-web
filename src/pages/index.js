@@ -3,6 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import postStyles from "./index.module.scss"
+import SEO from "../components/seo"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +26,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
+      <SEO title="Home"/>
       <p>I'm Daniel, a software engineer.</p>
       {data.allMarkdownRemark.edges.map((edge) => {
         return (
