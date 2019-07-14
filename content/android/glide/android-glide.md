@@ -1,8 +1,6 @@
 ---
 title: "Descargar imágenes de Internet con Glide"
-categories: android
-permalink: /:categories/glide
-tags: java
+lang: es
 ---
 
 Tutorial para utilizar la librería *Glide* para descargar imágenes desde una URL de Internet en nuestras aplicaciones Android.

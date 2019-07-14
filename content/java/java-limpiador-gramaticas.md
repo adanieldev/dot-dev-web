@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Limpiador de Gramáticas en Java"
-categories: java
-permalink: /:categories/limpiador-gramaticas
-tags: java
+lang: es
 ---
 
 Dada una gramática libre de contexto, limpia dicha gramática eliminando las producciones renombradoras, las producciones inútiles, las producciones inaccesibles, realiza estas opciones por separado o las hace todas en una.

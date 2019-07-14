@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Enviar notificaciones Android con Firebase Cloud Messaging"
-categories: android firebase
-permalink: /:categories/cloud-messaging-notificaciones
+lang: es
 ---
 
 Tutorial de Firebase Cloud Messaging para enviar notificaciones a aplicaciones Android. Se hace uso de Firebase Notifications y peticiones REST a la API de FCM.

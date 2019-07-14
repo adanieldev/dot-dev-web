@@ -1,7 +1,6 @@
 ---
 title: "Consumir una API, WebService con Retrofit en Android"
-categories: android
-language: es
+lang: es
 ---
 
 Tutorial para crear una aplicación Pokédex desde cero. La aplicación usa *Retrofit* para consumir una API en Android. Además de hacer uso de *Glide* para descargar imágenes.

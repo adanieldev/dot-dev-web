@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Firebase: Login Google en Android"
-categories: android firebase
-permalink: /:categories/login-google
+lang: es
 ---
 Implementarás un login con Google en Firebase en tu aplicación Android. Además obtendrás la información del usuario directamente desde Firebase, nombre, correo y fotografía.
 

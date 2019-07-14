@@ -1,7 +1,6 @@
 ---
 title: "Firebase: Login Facebook en Android"
-categories: android firebase
-permalink: /:categories/login-facebook
+lang: es
 ---
 
 Implementarás el inicio de sesión con Facebook en tu aplicación Android usando *Firebase Authentication*. Además obtendrás la información del usuario.

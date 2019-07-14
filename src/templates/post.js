@@ -9,7 +9,9 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
+        lang
       }
+      excerpt
       html
     }
   }
@@ -22,6 +24,7 @@ const Post = (props) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        lang={post.frontmatter.lang}
       />
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }}/>

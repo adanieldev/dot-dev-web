@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Firebase: Database Realtime para Android"
-categories: android firebase
-permalink: /:categories/realtime-database
-tags: firebase
+lang: es
 ---
 
 Tutorial para la construcción de una aplicación Android para modificar y obtener actualizaciones en tiempo real de datos con Firebase.

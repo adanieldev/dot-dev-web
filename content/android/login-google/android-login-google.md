@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Login Google en Android"
-categories: android
-permalink: /:categories/login-google
+lang: es
 ---
 
 Tutorial para realizar Log In, autenticación con Google en una aplicación Android, además de la obtención de información del usuario como nombres, correo electrónico, id y fotografía de perfil.
