@@ -74,7 +74,7 @@ Glide.with(this).load(account.getPhotoUrl()).into(photoImageView);
 
 > Si el usuario no tiene foto de perfil, `account.getPhotoUrl()` será `null`, sin embargo Glide no causará problemas, simplemente no se cargará ninguna imagen.De la misma forma si no se usó `requestEmail()` al armar el `GoogleSignInOptions`, `account.getEmail()` será `null`.
 
-## 3. Personalización
+## Personalización
 
 Tamaño del `SignInButton` (13:36)
 
