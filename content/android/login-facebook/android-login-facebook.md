@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Login Facebook en Android"
-categories: android
-permalink: /:categories/login-facebook
+lang: es
 ---
 
 Implementarás un inicio de sesión (Log In) con Facebook en una aplicación Android. Además de obtener la información del usuario y mostrarla.

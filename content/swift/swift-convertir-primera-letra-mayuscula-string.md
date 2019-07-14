@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Cómo convertir la primera letra a mayúscula de un String"
-categories: swift
-permalink: /:categories/primera-letra-mayuscula-string
+lang: es
 ---
 
 Si quieres convertir la primera letra de un String a mayúscula sin importar el resto de las letras, adiciona esta extensión:

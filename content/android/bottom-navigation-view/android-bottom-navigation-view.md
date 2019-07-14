@@ -1,8 +1,6 @@
 ---
-layout: "post"
 title: "Implement Bottom Navigation View for Android"
-categories: android
-permalink: /:categories/bottom-navigation-view
+lang: en
 ---
 Implementation of a Bottom Navigation View in an Android application. Component available from the compatibility library 25.
 
