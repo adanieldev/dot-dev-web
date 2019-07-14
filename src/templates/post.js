@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import postStyles from "./post.module.scss"
 
 export const query = graphql`
   query($slug: String!) {
@@ -27,7 +28,7 @@ const Post = (props) => {
         lang={post.frontmatter.lang}
       />
       <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}/>
+      <div className={postStyles.post} dangerouslySetInnerHTML={{ __html: post.html }}/>
     </Layout>
   )
 }
